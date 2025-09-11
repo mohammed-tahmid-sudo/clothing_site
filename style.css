@@ -1,23 +1,60 @@
-#top {
-  margin: 0;
-  padding: 0;
-  background-color: #f3f3f3;
-  height: 40px; /* made taller for button */
-  width: 100%;
-  display: flex; /* flex layout */
-  align-items: center; /* vertically center content */
-  justify-content: flex-start; /* align content to left */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
-#top > button {
-  margin-top: -4px; 
-  padding: 8px 10px; /* spacing inside button */
-  letter-spacing: 1px;
-  font-size: 13px;
+#body {
+  background-color: #f4f4f4;
+}
+
+#header {
+        margin: 0px;
+        padding: 0px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+#top-bar {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#exclusive-btn {
+  margin: 1;
   background-color: #000000;
   color: white;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
   border: none;
+  padding: 8px 12px;
+  font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#second_section {
+  display: flex;
+}
+
+#header-text {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+.top-right {
+  margin: 0;
+  padding: 10px;
+}
+.order_builk > button {
+  background: #000;
+  color: #ffffff;
+  width: 100%;
+  font-size: 0.9rem;
+  padding-right: 70px;
+  padding-left: 70px;
+  /* padding-top: 30px; */
 }
