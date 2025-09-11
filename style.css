@@ -1,0 +1,23 @@
+#top {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  height: 40px; /* made taller for button */
+  width: 100%;
+  display: flex; /* flex layout */
+  align-items: center; /* vertically center content */
+  justify-content: flex-start; /* align content to left */
+}
+
+#top > button {
+  margin-top: -4px; 
+  padding: 8px 10px; /* spacing inside button */
+  letter-spacing: 1px;
+  font-size: 13px;
+  background-color: #000000;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
